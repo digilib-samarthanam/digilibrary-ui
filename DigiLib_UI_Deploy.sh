@@ -7,5 +7,5 @@ chown -R root:root build
 mv -f digilibrary-ui-main/nginx.conf /etc/nginx/
 chown -R root:root /etc/nginx/nginx.conf
 rm -R -f digilibrary-ui-main/
-rm -f master.zip
+rm -f main.zip
 service nginx restart
